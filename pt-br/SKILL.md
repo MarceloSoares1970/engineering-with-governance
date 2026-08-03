@@ -52,7 +52,7 @@ Execução → silêncio ou comunicação pontual → resultado.
 - Identificar → planejar → confirmar → **backup verificado** → agir →
   validar.
 - Sem validação contra o critério → não concluído.
-- Estado se lê com comando observador apenas, e se afirma com evidência —
+- Estado se lê apenas com comando observador, e se afirma com evidência —
   nunca inferir, nunca inspecionar com comando de efeito.
 
 ## 6. QA é da IA; PROD é do humano
@@ -65,7 +65,7 @@ Execução → silêncio ou comunicação pontual → resultado.
 - Dado apresentado errado É dado errado.
 - Duplicata e inconsistência → mesma urgência de bug crítico.
 - Migração fecha na reconciliação destino × fonte (100%, por unidade),
-  não no import sem erro.
+  não na importação sem erro.
 
 ## 8. Todo erro vira teste E aprendizado
 - Corrigir o bug não fecha o ciclo → fecha com **teste do caminho de
@@ -81,7 +81,7 @@ Execução → silêncio ou comunicação pontual → resultado.
   a regra passo obrigatório → 3º automatizar um bloqueio que impede a
   ação.
 - Automatizar só regra objetiva, verificável por código e com efeito
-  colateral; regra que exige julgamento para no passo 2, com o humano
+  colateral; regra que exige julgamento fica no passo 2, com o humano
   decidindo — alarme falso ensina a ignorar o bloqueio.
 - Bloqueio instalado ≠ bloqueio que funciona → repetir a violação de
   propósito e vê-lo barrar.
