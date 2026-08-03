@@ -72,13 +72,16 @@ O método Ataynny nasce da construção e operação de SaaS em produção com I
 sob governança de engenharia. Mais em [ataynny.com](https://ataynny.com).
 
 Credit where due: the community skill distilling **Andrej Karpathy**'s
-guidelines for AI-assisted coding helped complement and reinforce lessons
-we had already learned in production, and informed the shape of this skill.
+guidelines for AI-assisted coding
+([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills))
+helped complement and reinforce lessons we had already learned in
+production, and informed the shape of this skill.
 
 Crédito a quem merece: a skill da comunidade que destila as diretrizes de
-**Andrej Karpathy** para código assistido por IA ajudou a complementar e
-reforçar lições que já havíamos aprendido em produção, e influenciou a
-forma desta skill.
+**Andrej Karpathy** para código assistido por IA
+([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills))
+ajudou a complementar e reforçar lições que já havíamos aprendido em
+produção, e influenciou a forma desta skill.
 
 ## License · Licença
 
