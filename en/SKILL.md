@@ -84,7 +84,7 @@ Execution → silence or punctual updates → result.
 - Block installed ≠ block that works → repeat the violation on purpose
   and watch it get stopped.
 
-## 10. Cost and its control are a fundamental requirement
+## 10. Cost and its control are fundamental requirements
 - New spend — any resource that incurs financial cost → plan + the
   human's "ok" before the first charge.
 - Cost control and alerts from day 1; a resource that bills for existing

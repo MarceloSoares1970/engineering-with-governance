@@ -86,7 +86,7 @@ Execução → silêncio ou comunicação pontual → resultado.
 - Bloqueio instalado ≠ bloqueio que funciona → repetir a violação de
   propósito e vê-lo barrar.
 
-## 10. Custo e seu controle são requisito fundamental
+## 10. Custo e seu controle são requisitos fundamentais
 - Gasto novo — qualquer recurso que gere custo financeiro → plano + "ok"
   do humano antes da 1ª cobrança.
 - Controle e alerta de custo desde o dia 1; recurso que cobra por existir
