@@ -10,7 +10,10 @@ mais caros de LLM em código com efeito colateral. Destiladas de prática real
 de produção: método Ataynny, por Marcelo Luiz Souza Soares
 ([ataynny.com](https://ataynny.com)).
 
-## The 11 principles · Os 11 princípios
+## The 10+1 commandments · Os 10+1 mandamentos
+
+Ten numbered principles plus the zeroth — the one that rules them all.
+Dez princípios numerados mais o zero — o que manda em todos.
 
 | # | English | Português (BR) |
 |---|---------|----------------|
