@@ -27,7 +27,7 @@ Dez princípios numerados mais o zero — o que manda em todos.
 | 7 | Data sanity ≥ code sanity | Sanidade dos dados ≥ sanidade do código |
 | 8 | Every error becomes a test AND a lesson | Todo erro vira teste E aprendizado |
 | 9 | A rule violated twice becomes an automated block | Regra violada 2× vira bloqueio automático |
-| 10 | Cost and its control are a fundamental requirement | Custo e seu controle são requisito fundamental |
+| 10 | Cost and its control are fundamental requirements | Custo e seu controle são requisitos fundamentais |
 
 Each principle is 3 bullets — the full text is a 5-minute read.
 Cada princípio tem 3 bullets — o texto completo se lê em 5 minutos.
