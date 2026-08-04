@@ -88,17 +88,25 @@ under engineering governance. More at [ataynny.com](https://ataynny.com).
 O método Ataynny nasce da construção e operação de SaaS em produção com IA
 sob governança de engenharia. Mais em [ataynny.com](https://ataynny.com).
 
-Credit where due: the community skill distilling **Andrej Karpathy**'s
-guidelines for AI-assisted coding
-([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills))
-helped complement and reinforce lessons we had already learned in
-production, and informed the shape of this skill.
+Credit where due: partway through, we compared this method against the
+community skill distilling **Andrej Karpathy**'s guidelines for
+AI-assisted coding
+([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)).
+The two converged — two independent paths arriving at the same
+principles. Where they converged, it confirmed what production had
+already taught us; where they diverged, it made this material evolve.
+Convergence between independent paths is the strongest evidence that a
+principle holds.
 
-Crédito a quem merece: a skill da comunidade que destila as diretrizes de
-**Andrej Karpathy** para código assistido por IA
-([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills))
-ajudou a complementar e reforçar lições que já havíamos aprendido em
-produção, e influenciou a forma desta skill.
+Crédito a quem merece: no meio do caminho, comparamos este método com a
+skill da comunidade que destila as diretrizes de **Andrej Karpathy** para
+código assistido por IA
+([andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)).
+Os dois convergiram — duas trajetórias independentes chegando aos mesmos
+princípios. Onde convergiu, confirmou o que a produção já tinha nos
+ensinado; onde divergiu, fez este material evoluir. Convergência entre
+caminhos independentes é a melhor evidência de que um princípio se
+sustenta.
 
 ## License · Licença
 
