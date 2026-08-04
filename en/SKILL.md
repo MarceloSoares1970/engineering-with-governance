@@ -1,5 +1,5 @@
 ---
-name: engineering-with-governance
+name: governance
 description: Governance guidelines for AI-assisted engineering — they reduce the costliest LLM mistakes in code with side effects. Use when writing, reviewing, refactoring, or deploying code, and in any action that changes state (data, infrastructure, publishing).
 license: MIT
 ---

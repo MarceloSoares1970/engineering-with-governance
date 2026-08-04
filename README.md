@@ -42,26 +42,43 @@ Cada princípio tem 3 bullets — o texto completo se lê em 5 minutos.
 Each version is a self-contained skill file in the [Agent Skills](https://code.claude.com/docs/en/skills)
 format (Markdown with YAML frontmatter).
 
-**Claude Code** — copy the file of your language as `SKILL.md` into a skill
-folder, personal or per-project:
+**Claude Code** — copy the file as `SKILL.md` into a skill folder, personal
+or per-project:
 
 ```bash
-mkdir -p ~/.claude/skills/engineering-with-governance
-curl -o ~/.claude/skills/engineering-with-governance/SKILL.md \
+mkdir -p ~/.claude/skills/governance
+curl -o ~/.claude/skills/governance/SKILL.md \
   https://raw.githubusercontent.com/MarceloSoares1970/engineering-with-governance/main/en/SKILL.md
 ```
 
-(For the PT-BR version, replace `en/SKILL.md` with `pt-br/SKILL.md`; for a
-single project, use `.claude/skills/` inside the repo instead.)
+For a single project, use `.claude/skills/` inside the repo instead of
+`~/.claude/skills/`. The two languages have different skill names
+(`governance` and `governanca`), so both can be installed side by side.
 
 **Other agent harnesses** — any tool that loads Markdown skills can consume
 the file as-is. It also works as plain reading guidelines for humans.
 
-**Claude Code** — copie o arquivo do seu idioma como `SKILL.md` para uma
-pasta de skill, pessoal (`~/.claude/skills/`) ou por projeto
-(`.claude/skills/`). Qualquer harness de agente que carregue skills em
-Markdown consome o arquivo como está — e ele também funciona como diretrizes
-de leitura para humanos.
+---
+
+Cada versão é um arquivo de skill autocontido no formato [Agent Skills](https://code.claude.com/docs/en/skills)
+(Markdown com frontmatter YAML).
+
+**Claude Code** — copie o arquivo como `SKILL.md` para uma pasta de skill,
+pessoal ou por projeto:
+
+```bash
+mkdir -p ~/.claude/skills/governanca
+curl -o ~/.claude/skills/governanca/SKILL.md \
+  https://raw.githubusercontent.com/MarceloSoares1970/engineering-with-governance/main/pt-br/SKILL.md
+```
+
+Para um projeto só, use `.claude/skills/` dentro do repositório em vez de
+`~/.claude/skills/`. Os dois idiomas têm nomes de skill diferentes
+(`governance` e `governanca`), então dá para instalar os dois lado a lado.
+
+**Outros harnesses de agente** — qualquer ferramenta que carregue skills em
+Markdown consome o arquivo como está. Ele também funciona como diretrizes de
+leitura para humanos.
 
 ## About · Sobre
 

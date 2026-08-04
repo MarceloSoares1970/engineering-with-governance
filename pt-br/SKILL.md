@@ -1,5 +1,5 @@
 ---
-name: engenharia-com-governanca
+name: governanca
 description: Diretrizes de governança para engenharia assistida por IA — reduzem os erros mais caros de LLM em código com efeito colateral. Usar ao escrever, revisar, refatorar ou fazer deploy de código, e em qualquer ação que mude estado (dados, infra, publicação).
 license: MIT
 ---
