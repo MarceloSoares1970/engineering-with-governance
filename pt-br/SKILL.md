@@ -1,6 +1,6 @@
 ---
 name: governanca
-description: Diretrizes de governança para engenharia assistida por IA — reduzem os erros mais caros de LLM em código com efeito colateral. Usar ao escrever, revisar, refatorar ou fazer deploy de código, e em qualquer ação que mude estado (dados, infra, publicação).
+description: Diretrizes de governança para engenharia assistida por IA — reduzem os erros mais caros de LLM em código com efeito colateral. Carregar quando o ambiente ainda não tem regras de governança próprias, ou para ler/revisar o texto. Se as regras já estão nas instruções do projeto, não recarregar: seria repetir, resumido, o que já está no contexto.
 license: MIT
 ---
 

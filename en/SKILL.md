@@ -1,6 +1,6 @@
 ---
 name: governance
-description: Governance guidelines for AI-assisted engineering — they reduce the costliest LLM mistakes in code with side effects. Use when writing, reviewing, refactoring, or deploying code, and in any action that changes state (data, infrastructure, publishing).
+description: Governance guidelines for AI-assisted engineering — they reduce the costliest LLM mistakes in code with side effects. Load when the environment has no governance rules of its own, or to read/review the text. If the rules are already in the project instructions, don't reload: it would repeat, in condensed form, what is already in context.
 license: MIT
 ---
 
