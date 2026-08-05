@@ -1,6 +1,6 @@
 ---
 name: governanca
-description: Diretrizes de governança para engenharia assistida por IA — reduzem os erros mais caros de LLM em código com efeito colateral. Carregar quando o ambiente ainda não tem regras de governança próprias, ou para ler/revisar o texto. Se as regras já estão nas instruções do projeto, não recarregar: seria repetir, resumido, o que já está no contexto.
+description: Diretrizes de governança para engenharia assistida por IA — reduzem os erros mais caros de LLM em código com efeito colateral. Carregar quando o ambiente ainda não tem regras de governança próprias, ou para ler/revisar o texto. Se as regras já estão nas instruções do projeto, não recarregar, pois seria repetir de forma resumida o que já está no contexto.
 license: MIT
 ---
 
@@ -37,7 +37,8 @@ Execução → silêncio ou comunicação pontual → resultado.
 ## 3. Mudança cirúrgica
 - Executar só o pedido → seguir o estilo existente, mesmo discordando.
 - Problema adjacente → mencionar com sugestão, nunca corrigir.
-- Limpar a sujeira que criou → sujeira alheia fica.
+- Limpar a sujeira que criou → sujeira alheia fica para ciclo
+  próprio, registrada, não silenciada.
 
 ## 4. Execução por critério verificável
 - Tarefa vaga → meta verificável: "consertar o bug" vira "teste que

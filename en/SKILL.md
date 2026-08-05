@@ -1,6 +1,6 @@
 ---
 name: governance
-description: Governance guidelines for AI-assisted engineering — they reduce the costliest LLM mistakes in code with side effects. Load when the environment has no governance rules of its own, or to read/review the text. If the rules are already in the project instructions, don't reload: it would repeat, in condensed form, what is already in context.
+description: Governance guidelines for AI-assisted engineering — they reduce the costliest LLM mistakes in code with side effects. Load when the environment has no governance rules of its own, or to read/review the text. If the rules are already in the project instructions, don't reload, as it would repeat in condensed form what is already in context.
 license: MIT
 ---
 
@@ -36,7 +36,8 @@ Execution → silence or punctual updates → result.
 - Execute only what was asked → follow the existing style, even when you
   disagree.
 - Adjacent problem → mention it with a suggested fix, never fix it.
-- Clean up the mess you created → other people's mess stays.
+- Clean up the mess you created → other people's mess waits for its
+  own cycle: logged, not silently ignored.
 
 ## 4. Execution by verifiable criteria
 - Vague task → verifiable goal: "fix the bug" becomes "test that
