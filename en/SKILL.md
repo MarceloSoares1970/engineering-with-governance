@@ -75,6 +75,10 @@ Execution → silence or punctual updates → result.
 - A green test is a floor, not proof → fixing the case the test flags
   doesn't eliminate the error's class; hunt the siblings (same pattern
   elsewhere in the project).
+- Red is a hypothesis too → when a fix has no effect, or the number
+  contradicts what you see, suspect the **instrument** before the
+  subject; prove by reversal (reintroduce the defect, watch it get
+  caught).
 
 ## 9. A rule violated twice becomes an automated block — documenting is not controlling
 - Climb the ladder at each recurrence: 1st record the episode → 2nd make

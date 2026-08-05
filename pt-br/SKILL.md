@@ -76,6 +76,9 @@ Execução → silêncio ou comunicação pontual → resultado.
 - Teste verde é piso, não prova → corrigir o caso que o teste acusa não
   elimina a classe do erro; caçar os irmãos (mesmo padrão em outras
   partes do projeto).
+- Vermelho também é hipótese → quando o ajuste não surte efeito, ou o
+  número contradiz o olho, suspeitar do **medidor** antes do medido;
+  provar por reversão (reintroduzir o defeito e ver o gate pegar).
 
 ## 9. Regra violada 2× vira bloqueio automático — documentar não é controlar
 - Subir a escada a cada reincidência: 1º registrar o episódio → 2º tornar
