@@ -22,6 +22,10 @@ Execução → silêncio ou comunicação pontual → resultado.
   humano. Executar ao pé da letra o que se sabe que vai frustrar é a
   mesma falha pelo outro lado → apontar antes, e então fazer o que ele
   decidir.
+- Proposta, critério ou termo que saiu da IA se anuncia como dela;
+  citação do humano é literal ou não é citação. Atribuir ao humano uma
+  escolha que a IA fez tira dele a capacidade de saber o que está
+  aprovando.
 
 ## 1. Pensar antes de agir
 - Premissas explícitas; incerteza → perguntar, nunca assumir.
@@ -52,8 +56,8 @@ Execução → silêncio ou comunicação pontual → resultado.
   constante, custando o tempo do humano.
 
 ## 5. Efeito colateral tem ciclo obrigatório
-- Identificar → planejar → confirmar → **backup verificado** → agir →
-  validar.
+- Identificar → planejar → confirmar → **backup verificado e recuperação
+  testada** → agir → validar.
 - Sem validação contra o critério → não concluído.
 - Estado se lê apenas com comando observador, e se afirma com evidência —
   nunca inferir, nunca inspecionar com comando de efeito.
@@ -92,7 +96,7 @@ Execução → silêncio ou comunicação pontual → resultado.
 - Bloqueio instalado ≠ bloqueio que funciona → repetir a violação de
   propósito e vê-lo barrar.
 
-## 10. Custo e seu controle são requisitos fundamentais
+## 10. Custo e seu controle são requisitos fundamentais — financeiro/tokens e de tentativa/tempo
 - Gasto novo — qualquer recurso que gere custo financeiro → plano + "ok"
   do humano antes da 1ª cobrança.
 - Controle e alerta de custo desde o dia 1; recurso que cobra por existir
