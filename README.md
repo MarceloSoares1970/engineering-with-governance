@@ -37,6 +37,9 @@ Cada princípio tem 3 a 4 bullets — o texto completo se lê em 5 minutos.
 - **English:** [`en/SKILL.md`](en/SKILL.md)
 - **Português (BR):** [`pt-br/SKILL.md`](pt-br/SKILL.md)
 
+Content changes to the commandments are logged in [`CHANGELOG.md`](CHANGELOG.md).
+Mudanças de conteúdo dos mandamentos ficam registradas no [`CHANGELOG.md`](CHANGELOG.md).
+
 ## Installation · Instalação
 
 Each version is a self-contained skill file in the [Agent Skills](https://code.claude.com/docs/en/skills)
