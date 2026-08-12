@@ -23,8 +23,9 @@ Os dois idiomas andam sempre juntos.
 - **Commandment 10** — the title now names both axes already present in
   its bullets: **financial/tokens and of attempts/time**.
 - `README.md` — commandment 10 row updated; bullet count corrected from
-  "3" to "**3 to 4**" (commandment 8 has had 4 since 2026-08-05, so the
-  old claim was already inaccurate).
+  "3" to "**3 to 4**": commandment 8 gained a 4th bullet on 2026-08-05
+  (`1d660f5`), while the README had claimed "3" since 2026-08-03
+  (`abf20ba`) — the line was stale for 6 days before this change.
 
 ---
 
@@ -38,8 +39,9 @@ Os dois idiomas andam sempre juntos.
 - **Mandamento 10** — o título passa a nomear os dois eixos que já
   conviviam nos bullets: **financeiro/tokens e de tentativa/tempo**.
 - `README.md` — linha do mandamento 10 atualizada; contagem de bullets
-  corrigida de "3" para "**3 a 4**" (o mandamento 8 tem 4 desde
-  05/08/2026, então a afirmação antiga já estava imprecisa).
+  corrigida de "3" para "**3 a 4**": o mandamento 8 ganhou um 4º bullet em
+  05/08/2026 (`1d660f5`), e o README afirmava "3" desde 03/08/2026
+  (`abf20ba`) — a linha estava vencida havia 6 dias.
 
 ## 2026-08-05
 
@@ -59,18 +61,6 @@ Os dois idiomas andam sempre juntos.
   quando o ajuste não surte efeito ou o número contradiz o olho,
   suspeitar do medidor antes do medido; provar por reversão.
 
----
-
-The entries below predate this repository, which was first published on
-2026-08-05 already carrying the 11 commandments. They come from the
-private template the text was distilled in, and are kept here so the
-reasoning behind the current form isn't lost.
-
-As entradas abaixo são anteriores a este repositório, publicado em
-05/08/2026 já com os 11 mandamentos. Vêm do template privado onde o texto
-foi destilado, e ficam aqui para não se perder o raciocínio que levou à
-forma atual.
-
 ## 2026-08-04
 
 - Skill names aligned with this repo (`governance` / `governanca`), so
@@ -80,8 +70,9 @@ forma atual.
 
 ## 2026-08-03
 
-Consolidation into the form this repo was published with: **11 items,
-~3 bullets each, no jargon**.
+This repository was first published on this date (`71e4efb`), carrying 8
+commandments. The full review later the same day (`faf97f5`) brought it to
+the form it still has: **11 items, ~3 bullets each, no jargon**.
 
 - **Commandment 0** (the human decides) and **commandment 9** (a rule
   violated twice becomes an automated block) enter the list.
@@ -95,8 +86,9 @@ Consolidation into the form this repo was published with: **11 items,
 
 ---
 
-Consolidação na forma com que este repo foi publicado: **11 itens,
-~3 bullets cada, sem jargão**.
+Este repositório foi publicado nesta data (`71e4efb`), com 8 mandamentos.
+A revisão completa, mais tarde no mesmo dia (`faf97f5`), o levou à forma
+que mantém até hoje: **11 itens, ~3 bullets cada, sem jargão**.
 
 - **Mandamento 0** (quem decide é o humano) e **mandamento 9** (regra
   violada 2× vira bloqueio automático) entram na lista.
