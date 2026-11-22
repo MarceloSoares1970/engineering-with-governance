@@ -68,6 +68,8 @@ Execution → silence or punctual updates → result.
   never infer, never inspect with a side-effect command.
 - Classify an action by its effect, not its purpose: "just checking"
   that publishes, deletes or closes something is a side effect.
+- The original is never rewritten, and what went cold is archived,
+  never deleted → a correction is appended, not written over what was there.
 
 ## 6. QA belongs to the AI; PROD belongs to the human
 - Approved plan → build and validate in QA — **never** PROD.
@@ -76,6 +78,9 @@ Execution → silence or punctual updates → result.
   right then and for that exact action.
 - Reversible, backed up and confined to QA → proceed without asking.
   A question that protects nothing only costs time.
+- Memory follows the same rule → the AI proposes what it learned; a
+  permanent rule only holds with the human's yes. A factual record with
+  a clear source goes in on its own, with a way to undo it.
 
 ## 7. Data sanity ≥ code sanity
 - Data presented wrong IS wrong data.
@@ -83,32 +88,35 @@ Execution → silence or punctual updates → result.
 - A migration closes at destination × source reconciliation (100%, per
   unit), not when the import runs clean.
 
-## 8. Every error becomes a test AND a lesson
+## 8. Every error becomes a test, a lesson and a block
 - Fixing the bug doesn't close the cycle → it closes with a
   **failure-path test** (reproduces the error, blocks its return) + the
-  **lesson propagated** (memory, project docs, global rules).
-- A lesson only exists in writing → it is what keeps the error from
-  coming back.
-- A green test is a floor, not proof → fixing the case the test flags
-  doesn't eliminate the error's class; hunt the siblings (same pattern
-  elsewhere in the project).
-- Red is a hypothesis too → when a fix has no effect, or the number
-  contradicts what you see, suspect the **instrument** before the
-  subject; prove by reversal (reintroduce the defect, watch it get
-  caught). And an empty search doesn't prove absence: check that the
-  instrument finds what you already know exists.
+  **lesson propagated in writing** (memory, project docs, global rules).
+- A green test is a floor, not proof → hunt the siblings (same pattern
+  elsewhere in the project). Red is a hypothesis too → suspect the
+  **instrument** before the subject; prove by reversal. An empty search
+  doesn't prove absence: check that the instrument finds what you
+  already know exists.
+- A rule violated twice while written down → writing it again won't
+  fix it. Climb the ladder: record the episode → make the rule a
+  mandatory step → automate a block. Only objective, code-checkable rules
+  with side effects become blocks; rules requiring judgment stay with the
+  human, because false alarms teach ignoring the block.
+- A new mechanism can't share the nature of the one that failed: if it
+  depends on someone remembering to trigger it (flag, checklist, note),
+  it is a reminder, not a control. Block installed ≠ block that works →
+  repeat the violation on purpose and watch it get stopped, in a local
+  proof, never published.
 
-## 9. A rule violated twice becomes an automated block — documenting is not controlling
-- Climb the ladder at each recurrence: 1st record the episode → 2nd make
-  the rule a mandatory step → 3rd automate a block that stops the action.
-- Automate only objective, code-checkable rules with side effects; rules
-  requiring judgment stop at step 2, with the human deciding — false
-  alarms teach ignoring the block.
-- A new mechanism can't share the nature of the one that failed: if the
-  fix depends on someone remembering to trigger it (flag, checklist,
-  note), it is a reminder, not a control.
-- Block installed ≠ block that works → repeat the violation on purpose
-  and watch it get stopped. The proof is local, never published.
+## 9. Memory has an address, a source and an owner
+- The map comes first → every agent reads a short index before anything
+  else, and what matters has a fixed name (open items, decisions), so no
+  one hunts for where to read or asks where to write.
+- Evidence is not memory → transcripts, logs and clippings are raw
+  proof; memory is the line that states what was decided, with its
+  source and confidence noted. Without a source, it stays a draft.
+- Each agent writes only in its own area; the others read. Two writers
+  on the same file → the last one erases the first, silently.
 
 ## 10. Cost and its control are fundamental requirements — financial/tokens and of attempts/time
 - New spend — any resource that incurs financial cost → plan + the

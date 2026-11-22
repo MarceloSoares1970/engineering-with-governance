@@ -69,6 +69,8 @@ Execução → silêncio ou comunicação pontual → resultado.
   nunca inferir, nunca inspecionar com comando de efeito.
 - Classificar a ação pelo efeito, não pelo propósito: "só para conferir"
   que publica, apaga ou fecha algo é efeito colateral.
+- O original nunca se reescreve, e o que esfriou se arquiva, nunca se
+  apaga → corrigir é anexar a correção, não sobrescrever o que havia.
 
 ## 6. QA é da IA; PROD é do humano
 - Plano aprovado → construir e validar em QA — **nunca** PROD.
@@ -77,6 +79,9 @@ Execução → silêncio ou comunicação pontual → resultado.
   na hora e para aquela ação.
 - Reversível, com backup e restrito ao QA → seguir sem perguntar.
   Pergunta que não protege nada só custa tempo.
+- A memória segue a mesma regra → a IA propõe o que aprendeu; regra
+  permanente só vale com o sim do humano. Registro factual com origem
+  clara entra sozinho, com como desfazer.
 
 ## 7. Sanidade dos dados ≥ sanidade do código
 - Dado apresentado errado É dado errado.
@@ -84,32 +89,33 @@ Execução → silêncio ou comunicação pontual → resultado.
 - Migração fecha na reconciliação destino × fonte (100%, por unidade),
   não na importação sem erro.
 
-## 8. Todo erro vira teste E aprendizado
+## 8. Todo erro vira teste, aprendizado e bloqueio
 - Corrigir o bug não fecha o ciclo → fecha com **teste do caminho de
-  falha** (reproduz o erro, impede a volta) + **aprendizado propagado**
-  (memória, docs do projeto, regras globais).
-- Aprendizado só existe escrito → é o que impede o erro de voltar.
-- Teste verde é piso, não prova → corrigir o caso que o teste acusa não
-  elimina a classe do erro; caçar os irmãos (mesmo padrão em outras
-  partes do projeto).
-- Vermelho também é hipótese → quando o ajuste não surte efeito, ou o
-  número contradiz o olho, suspeitar do **medidor** antes do medido;
-  provar por reversão (reintroduzir o defeito e ver o gate pegar). E
-  busca vazia não prova ausência: conferir se o instrumento acha o que
-  já se sabe que existe.
+  falha** (reproduz o erro, impede a volta) + **aprendizado propagado e
+  escrito** (memória, docs do projeto, regras globais).
+- Teste verde é piso, não prova → caçar os irmãos (mesmo padrão em
+  outras partes do projeto). Vermelho também é hipótese → suspeitar do
+  **medidor** antes do medido; provar por reversão. Busca vazia não prova
+  ausência: conferir se o instrumento acha o que já se sabe que existe.
+- Regra violada 2× estando escrita → escrever de novo não resolve. Subir
+  a escada: registrar o episódio → tornar a regra passo obrigatório →
+  automatizar um bloqueio. Só regra objetiva, verificável por código e
+  com efeito colateral vira bloqueio; a que exige julgamento fica com o
+  humano, porque alarme falso ensina a ignorar o bloqueio.
+- Mecanismo novo não pode ter a natureza do que falhou: se depende de
+  alguém lembrar de acioná-lo (flag, checklist, nota), é lembrete, não
+  controle. Bloqueio instalado ≠ bloqueio que funciona → repetir a
+  violação de propósito e vê-lo barrar, numa prova local, nunca publicada.
 
-## 9. Regra violada 2× vira bloqueio automático — documentar não é controlar
-- Subir a escada a cada reincidência: 1º registrar o episódio → 2º tornar
-  a regra passo obrigatório → 3º automatizar um bloqueio que impede a
-  ação.
-- Automatizar só regra objetiva, verificável por código e com efeito
-  colateral; regra que exige julgamento fica no passo 2, com o humano
-  decidindo — alarme falso ensina a ignorar o bloqueio.
-- Mecanismo novo não pode ter a natureza do que falhou: se a correção
-  depende de alguém lembrar de acioná-la (flag, checklist, nota), é
-  lembrete, não controle.
-- Bloqueio instalado ≠ bloqueio que funciona → repetir a violação de
-  propósito e vê-lo barrar. A prova é local, nunca publicada.
+## 9. A memória tem endereço, origem e dono
+- O mapa vem primeiro → todo agente lê um índice curto antes de qualquer
+  coisa, e o que importa tem nome fixo (pendências, decisões), para
+  ninguém procurar onde ler nem perguntar onde gravar.
+- Evidência não é memória → transcrição, log e recorte são prova bruta;
+  memória é a linha que diz o que ficou decidido, com a origem e a
+  confiança anotadas. Sem origem, continua rascunho.
+- Cada agente grava só na própria área; os outros leem. Dois escritores
+  no mesmo arquivo → o último apaga o primeiro, em silêncio.
 
 ## 10. Custo e seu controle são requisitos fundamentais — financeiro/tokens e de tentativa/tempo
 - Gasto novo — qualquer recurso que gere custo financeiro → plano + "ok"

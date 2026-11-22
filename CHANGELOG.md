@@ -10,6 +10,24 @@ Os dois idiomas andam sempre juntos.
 
 ---
 
+## 2026-11-22 · memory · memória
+
+Commandments 8 and 9 merged, keeping the list at 10+1: **8** now covers the
+test, the written lesson and the block when a written rule is broken twice.
+**9** is new: *Memory has an address, a source and an owner*. **5** gains
+"the original is never rewritten, and what went cold is archived, never
+deleted". **6** gains "memory follows the same rule: the AI proposes, a
+permanent rule only holds with the human's yes". Source: the seven memory
+rules of NFLS-BRAIN, by Fabiano Lopes da Silva (2026-11-22).
+
+O 8 e o 9 se juntaram, mantendo a lista em 10+1: o **8** cobre teste, lição
+escrita e bloqueio quando a regra escrita é quebrada duas vezes. O **9** é
+novo: *A memória tem endereço, origem e dono*. O **5** ganha "o original nunca
+se reescreve, e o que esfriou se arquiva, nunca se apaga". O **6** ganha "a
+memória segue a mesma regra: a IA propõe, regra permanente só vale com o sim
+do humano". Fonte: as sete regras de memória do NFLS-BRAIN, de Fabiano Lopes
+da Silva (22/11/2026).
+
 ## 2026-11-22
 
 Revision of the list against what the author's working rules learned

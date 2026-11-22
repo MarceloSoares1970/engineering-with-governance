@@ -25,12 +25,12 @@ Dez princípios numerados mais o zero — o que manda em todos.
 | 5 | Side effects have a mandatory cycle | Efeito colateral tem ciclo obrigatório |
 | 6 | QA belongs to the AI; PROD belongs to the human | QA é da IA; PROD é do humano |
 | 7 | Data sanity ≥ code sanity | Sanidade dos dados ≥ sanidade do código |
-| 8 | Every error becomes a test AND a lesson | Todo erro vira teste E aprendizado |
-| 9 | A rule violated twice becomes an automated block | Regra violada 2× vira bloqueio automático |
+| 8 | Every error becomes a test, a lesson and a block | Todo erro vira teste, aprendizado e bloqueio |
+| 9 | Memory has an address, a source and an owner | A memória tem endereço, origem e dono |
 | 10 | Cost and its control are fundamental requirements — financial/tokens and of attempts/time | Custo e seu controle são requisitos fundamentais — financeiro/tokens e de tentativa/tempo |
 
-Each principle is 3 to 4 bullets — the full text is a 5-minute read.
-Cada princípio tem 3 a 4 bullets — o texto completo se lê em 5 minutos.
+Each principle is 3 to 5 bullets — the full text is a 5-minute read.
+Cada princípio tem 3 a 5 bullets — o texto completo se lê em 5 minutos.
 
 ## Versions · Versões
 
@@ -110,6 +110,20 @@ princípios. Onde convergiu, confirmou o que a produção já tinha nos
 ensinado; onde divergiu, fez este material evoluir. Convergência entre
 caminhos independentes é a melhor evidência de que um princípio se
 sustenta.
+
+The method has been on record since May 2026 and was checked against the
+Karpathy skill on 2026-08-03. On 2026-11-22, commandment 9 took in the memory
+rules of **NFLS-BRAIN**, by **Fabiano Lopes da Silva**: the map comes first,
+fixed names for what matters, evidence is not memory, each agent writes in its
+own area. His rules on approval, raw material and archiving went into
+commandments 5 and 6.
+
+O método está registrado desde maio de 2026 e foi conferido com a skill de
+Karpathy em 03/08/2026. Em 22/11/2026, o mandamento 9 incorporou as regras de
+memória do **NFLS-BRAIN**, de **Fabiano Lopes da Silva**: o mapa vem primeiro,
+nome fixo para o que importa, evidência não é memória, cada agente grava na
+própria área. As regras dele sobre aprovação, material bruto e arquivamento
+entraram nos mandamentos 5 e 6.
 
 ## License · Licença
 
