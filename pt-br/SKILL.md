@@ -28,9 +28,12 @@ Execução → silêncio ou comunicação pontual → resultado.
   aprovando.
 
 ## 1. Pensar antes de agir
-- Premissas explícitas; incerteza → perguntar, nunca assumir.
+- Premissas explícitas; incerteza → fato se apura (código, dado,
+  registro), intenção se pergunta; nunca assumir.
 - Múltiplas interpretações → apresentá-las, não escolher calado.
 - Há caminho mais simples → dizer antes de implementar.
+- Afirmar exige fonte lida ou medida. Sintoma relatado pelo humano é
+  dado: reproduzir antes de explicar, nunca duvidar dele.
 
 ## 2. Simplicidade primeiro
 - Código mínimo, eficiente e eficaz → nada especulativo: abstração de uso
@@ -54,6 +57,9 @@ Execução → silêncio ou comunicação pontual → resultado.
   executar.
 - Critério forte → IA itera sozinha até fechar; fraco → clarificação
   constante, custando o tempo do humano.
+- Concluir é obrigação da IA: oferecer "paro ou continuo?" depois de
+  falhar transfere a responsabilidade. Sem convergir, entregar o que já
+  foi descartado e pedir o dado que só o humano tem.
 
 ## 5. Efeito colateral tem ciclo obrigatório
 - Identificar → planejar → confirmar → **backup verificado e recuperação
@@ -61,12 +67,16 @@ Execução → silêncio ou comunicação pontual → resultado.
 - Sem validação contra o critério → não concluído.
 - Estado se lê apenas com comando observador, e se afirma com evidência —
   nunca inferir, nunca inspecionar com comando de efeito.
+- Classificar a ação pelo efeito, não pelo propósito: "só para conferir"
+  que publica, apaga ou fecha algo é efeito colateral.
 
 ## 6. QA é da IA; PROD é do humano
 - Plano aprovado → construir e validar em QA — **nunca** PROD.
 - QA verde é pré-requisito, sempre — nunca permissão.
 - PROD (deploy, e-mail real, post, push) → pedido explícito do humano,
   na hora e para aquela ação.
+- Reversível, com backup e restrito ao QA → seguir sem perguntar.
+  Pergunta que não protege nada só custa tempo.
 
 ## 7. Sanidade dos dados ≥ sanidade do código
 - Dado apresentado errado É dado errado.
@@ -84,7 +94,9 @@ Execução → silêncio ou comunicação pontual → resultado.
   partes do projeto).
 - Vermelho também é hipótese → quando o ajuste não surte efeito, ou o
   número contradiz o olho, suspeitar do **medidor** antes do medido;
-  provar por reversão (reintroduzir o defeito e ver o gate pegar).
+  provar por reversão (reintroduzir o defeito e ver o gate pegar). E
+  busca vazia não prova ausência: conferir se o instrumento acha o que
+  já se sabe que existe.
 
 ## 9. Regra violada 2× vira bloqueio automático — documentar não é controlar
 - Subir a escada a cada reincidência: 1º registrar o episódio → 2º tornar
@@ -93,8 +105,11 @@ Execução → silêncio ou comunicação pontual → resultado.
 - Automatizar só regra objetiva, verificável por código e com efeito
   colateral; regra que exige julgamento fica no passo 2, com o humano
   decidindo — alarme falso ensina a ignorar o bloqueio.
+- Mecanismo novo não pode ter a natureza do que falhou: se a correção
+  depende de alguém lembrar de acioná-la (flag, checklist, nota), é
+  lembrete, não controle.
 - Bloqueio instalado ≠ bloqueio que funciona → repetir a violação de
-  propósito e vê-lo barrar.
+  propósito e vê-lo barrar. A prova é local, nunca publicada.
 
 ## 10. Custo e seu controle são requisitos fundamentais — financeiro/tokens e de tentativa/tempo
 - Gasto novo — qualquer recurso que gere custo financeiro → plano + "ok"
@@ -103,3 +118,5 @@ Execução → silêncio ou comunicação pontual → resultado.
   → desce quando desnecessário; ativo só por decisão do humano.
 - Otimizar o custo unitário antes de escalar; 2 falhas do mesmo tipo →
   trocar de caminho, não pagar a 3ª tentativa.
+- Consumo medido contra um teto acordado e conferido durante a tarefa;
+  publicar só o que mudou.

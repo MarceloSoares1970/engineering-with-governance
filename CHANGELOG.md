@@ -10,6 +10,60 @@ Os dois idiomas andam sempre juntos.
 
 ---
 
+## 2026-11-22
+
+Revision of the list against what the author's working rules learned
+between August and November. One change per commandment where a lesson
+proved general; stack-specific rules stay out.
+
+- **Commandment 1** — uncertainty splits in two: **facts get checked**
+  (code, data, records), **intent gets asked**. New bullet: a claim needs
+  a source that was read or measured, and a symptom the human reports is
+  data, reproduced before it is explained.
+- **Commandment 4** — new bullet: **finishing is the AI's duty**. Offering
+  "stop or keep going?" after failing shifts the responsibility; when
+  nothing converges, hand over what was ruled out and ask for the data
+  only the human has.
+- **Commandment 5** — new bullet: classify an action by its **effect**,
+  not its purpose.
+- **Commandment 6** — new bullet: reversible, backed up and confined to
+  QA → proceed without asking.
+- **Commandment 8** — "red is a hypothesis too" adds that an **empty
+  search doesn't prove absence** (positive control).
+- **Commandment 9** — new bullet: a new mechanism can't share the nature
+  of the one that failed (a fix that depends on remembering is a
+  reminder, not a control); the proof by reversal is **local, never
+  published**.
+- **Commandment 10** — new bullet: consumption measured against an
+  agreed ceiling during the task; publish only what changed.
+- Bullet count stays at 3 to 4 per commandment; `README.md` unchanged.
+
+---
+
+- **Mandamento 1** — a incerteza se divide em duas: **fato se apura**
+  (código, dado, registro), **intenção se pergunta**. Bullet novo: afirmar
+  exige fonte lida ou medida, e sintoma relatado pelo humano é dado, que
+  se reproduz antes de se explicar.
+- **Mandamento 4** — bullet novo: **concluir é obrigação da IA**. Oferecer
+  "paro ou continuo?" depois de falhar transfere a responsabilidade; sem
+  convergir, entregar o que já foi descartado e pedir o dado que só o
+  humano tem.
+- **Mandamento 5** — bullet novo: classificar a ação pelo **efeito**, não
+  pelo propósito.
+- **Mandamento 6** — bullet novo: reversível, com backup e restrito ao QA
+  → seguir sem perguntar.
+- **Mandamento 8** — "vermelho também é hipótese" ganha que **busca vazia
+  não prova ausência** (controle positivo).
+- **Mandamento 9** — bullet novo: mecanismo novo não pode ter a natureza
+  do que falhou (correção que depende de lembrar é lembrete, não
+  controle); a prova por reversão é **local, nunca publicada**.
+- **Mandamento 10** — bullet novo: consumo medido contra um teto acordado
+  durante a tarefa; publicar só o que mudou.
+- A contagem segue em 3 a 4 bullets por mandamento; `README.md` sem
+  mudança.
+
+---
+
 ## 2026-08-11
 
 - **Commandment 0** — new bullet on **authorship of decisions**: a
